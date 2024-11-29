@@ -28,11 +28,6 @@ let package = Package(
             checksum: "5c09fa4ca07b9132391c61f4cb8d3ecd1748ce7f89df8017cc2811e1cbc49b9e"
         ),
         .binaryTarget(
-            name: "TXLiteAVSDK_ReplayKitExt",
-            url: "https://liteav.sdk.qcloud.com/download/spm/12.2/trtc/TXLiteAVSDK_ReplayKitExt.xcframework.zip",
-            checksum: "2ce819713220fcb60cc2a57624d35f49a585c4b92524eccfe52832a742df0f23"
-        ),
-        .binaryTarget(
             name: "TXSoundTouch",
             url: "https://liteav.sdk.qcloud.com/download/spm/12.2/trtc/TXSoundTouch.xcframework.zip",
             checksum: "335c52de61bf65e719759c9641100159a33bfee5945e87efa4a5a191e5987294"
@@ -41,7 +36,6 @@ let package = Package(
             dependencies: [
                 .target(name: "TXLiteAVSDK_TRTC"),
                 .target(name: "TXFFmpeg"),
-                .target(name: "TXLiteAVSDK_ReplayKitExt"),
                 .target(name: "TXSoundTouch")
             ],
             sources: ["TRTC_SwiftPM.swift"],
