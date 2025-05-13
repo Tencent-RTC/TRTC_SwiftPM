@@ -22,23 +22,23 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .binaryTarget(
             name: "TXLiteAVSDK_TRTC",
-            url: "https://liteav.sdk.qcloud.com/download/spm/12.3/trtc/TXLiteAVSDK_TRTC.xcframework.zip",
-            checksum: "8b925570a22e4676cb230dcf104722051ea8e6e86f0c4d491c407197c09a5627"
+            url: "https://liteav.sdk.qcloud.com/download/spm/12.4/trtc/TXLiteAVSDK_TRTC.xcframework.zip",
+            checksum: "46430df8d8c63b5b793f0a21608308652e0536cf89ca181e16e1303fead05da5"
         ),
         .binaryTarget(
             name: "TXFFmpeg",
-            url: "https://liteav.sdk.qcloud.com/download/spm/12.3/trtc/TXFFmpeg.xcframework.zip",
-            checksum: "c6952cbf889951a5d7684b34c97e63008a6ba774f5641f8274aebb25e585b0a2"
+            url: "https://liteav.sdk.qcloud.com/download/spm/12.4/trtc/TXFFmpeg.xcframework.zip",
+            checksum: "742b98ee6e2002b8afe00e416d117bb2fd8e271f2674ce6659107e27aa8abdde"
         ),
         .binaryTarget(
             name: "TXLiteAVSDK_ReplayKitExt",
-            url: "https://liteav.sdk.qcloud.com/download/spm/12.3/professional/TXLiteAVSDK_ReplayKitExt.xcframework.zip",
-            checksum: "898f4af0c0298a451aaa1929f4e256496e55661539991c3c48c13379840d3b10"
+            url: "https://liteav.sdk.qcloud.com/download/spm/12.4/professional/TXLiteAVSDK_ReplayKitExt.xcframework.zip",
+            checksum: "51a59d8934002ba0e27504228ba5df38433a5d9b96cf9ea7be674a711e956d19"
         ),
         .binaryTarget(
             name: "TXSoundTouch",
-            url: "https://liteav.sdk.qcloud.com/download/spm/12.3/trtc/TXSoundTouch.xcframework.zip",
-            checksum: "e5741da1f65e3119e0c50dc7233751e2bd27ae343430ebd4d6bde352768ef28a"
+            url: "https://liteav.sdk.qcloud.com/download/spm/12.4/trtc/TXSoundTouch.xcframework.zip",
+            checksum: "d37a52d01c8ac2cd76356705ef02eb35c351f2c229abcc3c0e4c0b0150cea66b"
         ),.target(
             name: "TRTC_SwiftPM",
             dependencies: [
