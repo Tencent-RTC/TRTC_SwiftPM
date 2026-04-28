@@ -22,23 +22,23 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .binaryTarget(
             name: "TXLiteAVSDK_TRTC",
-            url: "https://liteav.sdk.qcloud.com/download/spm/13.2/trtc/TXLiteAVSDK_TRTC.xcframework.zip",
-            checksum: "4f4425edce24fd3f768de79e80f11439b3f5b8740d978eae27381c1bed0a4ef9"
+            url: "https://liteav.sdk.qcloud.com/download/spm/13.3/trtc/13.3.0.20845/TXLiteAVSDK_TRTC.xcframework.zip",
+            checksum: "22af4347a790f782973899355181d9c460b2e2a816cea74a00626e0ba3ad6bc1"
         ),
         .binaryTarget(
             name: "TXFFmpeg",
-            url: "https://liteav.sdk.qcloud.com/download/spm/13.2/trtc/TXFFmpeg.xcframework.zip",
-            checksum: "9d25e5daa9e1a82fafc7a12c30996d83d1134ca15e3853de02bf043a796d0511"
+            url: "https://liteav.sdk.qcloud.com/download/spm/13.3/trtc/13.3.0.20845/TXFFmpeg.xcframework.zip",
+            checksum: "bd9a606e2e74948c25e62361c0daa6ff19bcd03a75ad69965281bc7bddd564be"
         ),
         .binaryTarget(
             name: "TXLiteAVSDK_ReplayKitExt",
-            url: "https://liteav.sdk.qcloud.com/download/spm/13.2/trtc/TXLiteAVSDK_ReplayKitExt.xcframework.zip",
-            checksum: "1728dcfbcbe7032e01569a5aa88704910c36576a5d29e715f9e25255b6734a40"
+            url: "https://liteav.sdk.qcloud.com/download/spm/13.3/trtc/13.3.0.20845/TXLiteAVSDK_ReplayKitExt.xcframework.zip",
+            checksum: "43528fac9c85364a6c183ba9710fe81957b8ff9d65eb2499b18beddb21f4ec51"
         ),
         .binaryTarget(
             name: "TXSoundTouch",
-            url: "https://liteav.sdk.qcloud.com/download/spm/13.2/trtc/TXSoundTouch.xcframework.zip",
-            checksum: "1e3403da36a151d8a3d2ee5a30254c6885e2a5c9fca180bff555e7ab4311f8e4"
+            url: "https://liteav.sdk.qcloud.com/download/spm/13.3/trtc/13.3.0.20845/TXSoundTouch.xcframework.zip",
+            checksum: "d59e7f6a8f89d411306820d4f4d58f29f4810a12df2bd5688bc8af2ee78794c0"
         ),.target(
             name: "TRTC_SwiftPM",
             dependencies: [
